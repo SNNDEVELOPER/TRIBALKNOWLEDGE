@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/prismDark.css">
+<title>Tribal Knowledge - Workplace knowledge exchange platform</title>
+</head>
+
+<body>
+<!-- HOLDER -->
+<span id="holder"></span>
+<!-- END HOLDER -->
+
+<!-- NAVIGATION -->
+	<div id="navigation"></div>
+<!-- END NAVIGATION -->
+
+<!-- CONTENT -->
+<div class="container-fluid" id="mainSection">
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1">
+			<h3 id="categoryTitle"></h3>
+			<hr>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1">
+			<!-- RESULTS SECTION -->
+ 			<div id="Result"></div>
+			<!-- END RESULTS -->
+ 		</div>		
+	</div>
+</div>
+<!-- END CONTENT -->
+ 
+<!-- FOOTER -->
+ 	<footer>
+		<div class="col-lg-12 text-right">&copy; Tribal Knowledge </div>
+ 	</footer>
+<!-- END FOOTER -->
+
+<!-- MODAL -->
+<div class="modal fade" tabindex="-1" role="dialog" id="siteModal">
+	<div class="verticalAlignHelper">
+	  <div class="modal-dialog verticalAlignCenter" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-close"></i></span></button>
+			<h4 class="modal-title"></h4>
+		  </div>
+		  <div class="modal-body">
+			<p></p>
+		  </div>
+		  <div class="modal-footer">
+		    <button type="button" class="btn btn-default btn-danger" id="deleteBtn"><i class="fa fa-trash"></i></button>
+			<button type="button" class="btn btn-primary btn-success" id="saveBtn"><i class="fa fa-check"></i></button>
+			<button type="button" class="btn btn-default btn-primary" id="close" data-dismiss="modal"><i class="fa fa-close"></i></button>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+    </div>
+</div>
+<!-- END MODAL -->
+
+<input type="hidden" id="todaysDate">
+
+<!-- SCRIPTS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/prism.js"></script>
+<script src="js/prismLineNumbers.js"></script>
+<script src="js/tinymce/tinymce.min.js"></script>
+<script src="js/search/fuse.min.js"></script>
+<script src="js/taggle.js"></script>
+<script src="js/tk.js"></script>
+</body>
+</html>
